@@ -1,0 +1,33 @@
+{
+  "name": "syncnote",
+  "version": "2.0.0",
+  "description": "SyncNote - Cloud Notes & File Sharing Platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "keywords": [
+    "syncnote",
+    "notes",
+    "cloudinary",
+    "mongodb",
+    "express",
+    "file-sharing"
+  ],
+  "author": "Manikanta",
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "cloudinary": "^1.41.3",
+    "dotenv": "^17.4.2",
+    "express": "^4.21.2",
+    "mongoose": "^8.18.0",
+    "multer": "^2.0.2",
+    "multer-storage-cloudinary": "^4.0.0",
+    "pg": "^8.23.1"
+  }
+}
